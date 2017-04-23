@@ -26,6 +26,10 @@ When giving the file as user input for decryption, Don't forget to give the corr
 When decrypting the encrypted files, the extension .enc will be removed and the file is decrypted
 [ when input1.pdf.enc is decrypted, the decrypted file is input1.pdf ]
 
+Use the same encryption algorithm you used to decrypt the encrypted file [ If you use des algorithm to encrypt your file, you must use only the des algorithm when you are decrypting the file ]
+
+Please notedown or remember your encryption password you provide when encrypting a file with symmetric technique as you'll need the password later when you are to decrypt the encrypted file
+
 Keep in mind that the PASS PHRASE for the PRIVATE KEY in the ASYMMETRIC DECRYPTION process is "password"
 
 View the log details in the logfile.txt file
